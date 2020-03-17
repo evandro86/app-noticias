@@ -28,5 +28,6 @@ import { FavoritosComponent } from './favoritos/favoritos.component';
   ],
   providers: [],
   bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }
