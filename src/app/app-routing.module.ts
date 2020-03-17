@@ -23,8 +23,8 @@ const routes: Routes = [
   },
   {
     path: 'favoritos',
-    // component: FavoritosComponent,
-    loadChildren: './favoritos/favoritos.module#FavoritosModule'
+    component: FavoritosComponent,
+    // loadChildren: './favoritos/favoritos.module#FavoritosModule'
   }
 ];
 
